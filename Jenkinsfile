@@ -2,7 +2,7 @@ pipeline {
     agent { label 'build-agent' }
 
     environment {
-        APP_DIR = "/home/jenkins/node-api"
+        APP_DIR = "/home/jenkins/node-api-auto"
         REPO_URL = "https://github.com/timajumd1996/node-api.git"
     }
 
